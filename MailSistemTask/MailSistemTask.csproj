@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CostomerException\CostomerException.csproj" />
+    <ProjectReference Include="..\Post\Posts.csproj" />
+    <ProjectReference Include="..\Users\Users.csproj" />
+    <ProjectReference Include="..\User\Admins.csproj" />
+  </ItemGroup>
+
+</Project>
